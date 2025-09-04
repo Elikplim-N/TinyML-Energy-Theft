@@ -5,7 +5,7 @@ Adafruit_INA219 ina(0x40);  // default INA219 address
 
 // ====== PINS ======
 const int RELAY_PIN = 16;           // change if needed
-const bool RELAY_ACTIVE_LOW = true; // set false if your relay is active-HIGH
+const bool RELAY_ACTIVE_LOW = false; // set false if your relay is active-HIGH
 const int STATUS_LED = 2;           // onboard LED (optional)
 
 // ====== LOGGING ======
